@@ -1,5 +1,3 @@
-opValidos = '+-*/'
-
 while True:
     a = input('Digite o 1° número: ')
     b = input('Digite o 2° número: ')
