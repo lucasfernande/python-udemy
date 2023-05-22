@@ -1,3 +1,5 @@
+import os
+
 palavra = 'perfume'
 
 tentativas = 0
@@ -28,7 +30,8 @@ while True:
     print(escondido)
 
     if escondido == palavra:
+        os.system('cls')
         break
 
 print(f'Você ganhou! A palavra era {palavra}')
-print(f'Você tentou {tentativas} vezes')
+print(f'Você tentou {tentativas} vezes!')
