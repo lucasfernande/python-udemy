@@ -4,5 +4,4 @@ peso = 80
 
 imc = peso / altura ** 2
 
-print(nome + ' tem ' + str(altura) + ' de altura,')
-print('pesa ' + str(peso) + ' kg e seu imc é ' + str(imc))
+print(f'{nome} tem {altura} de altura, pesa {peso} kg e seu imc é {imc:.2f}')
